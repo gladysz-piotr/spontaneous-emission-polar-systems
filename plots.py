@@ -160,7 +160,7 @@ if __name__ == '__main__':
             if k == bot_plots_num-1:
                 axs_bot[k].set_title(r"$\Sigma_{n^\prime >0}\Gamma_{e0n^\prime}$")
             else:
-                axs_bot[k].set_title(f"$\Gamma_{{e0{k+1}}}$")
+                axs_bot[k].set_title(fr"$\Gamma_{{e0{k+1}}}$")
             axs_bot[k].set_xlabel(r"$\omega_L/\omega_0$")
             axs_bot[k].text(
                 bot_label_pos[0]*w_L_vals[k][-1],
